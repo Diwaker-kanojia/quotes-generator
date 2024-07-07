@@ -47,7 +47,6 @@ generateBtn.addEventListener("click", () => {
       return response.json();
     })
     .then((data) => {
-      console.log(data);
       quotes.innerHTML = data[0].quote;
       author.innerHTML = data[0].author;
       Quotes(data[0].quote,data[0].author);

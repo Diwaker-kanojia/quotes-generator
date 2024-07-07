@@ -52,7 +52,13 @@ hr{
     border: none;
     outline: none;
     border-radius: 15px;
+    cursor: pointer;
 }
 .quote-btn{
     font-weight:700;
+}
+.footer button:hover{
+     background-color: white;
+     color: #5372f0;
+     border: 1.5px solid #5372f0;
 }
